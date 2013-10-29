@@ -46,11 +46,14 @@ end
 
 group :development do
   gem 'rspec-rails'
+  gem 'guard-rspec'
 end
 
 group :test do
   gem 'rspec-rails'
   gem 'selenium-webdriver'
   gem 'capybara'
-  gem 'spork'
+  gem 'guard-rspec'
+  gem 'libnotify'
+  gem 'guard-spork'
 end
