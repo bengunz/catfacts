@@ -181,6 +181,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  childprocess
   coffee-rails (~> 4.0.0)
   guard-rspec
   guard-spork
