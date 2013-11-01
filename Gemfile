@@ -45,6 +45,8 @@ end
 # gem 'debugger', group: [:development, :test]
 
 group :development do
+  gem 'spork', :github => 'sporkrb/spork'
+  gem 'spork-rails', :github => 'sporkrb/spork-rails'
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'guard-spork'
@@ -52,6 +54,8 @@ group :development do
 end
 
 group :test do
+  gem 'spork', :github => 'sporkrb/spork'
+  gem 'spork-rails', :github => 'sporkrb/spork-rails'
   gem 'rspec-rails'
   gem 'selenium-webdriver'
   gem 'capybara'
