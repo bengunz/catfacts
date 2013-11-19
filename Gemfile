@@ -44,6 +44,9 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# use bootstrap
+gem 'bootstrap-sass'
+
 group :development do
   gem 'spork', :github => 'sporkrb/spork'
   gem 'spork-rails', :github => 'sporkrb/spork-rails'
@@ -51,6 +54,7 @@ group :development do
   gem 'guard-rspec'
   gem 'guard-spork'
   gem 'childprocess'
+  gem 'capybara'
 end
 
 group :test do
@@ -62,4 +66,5 @@ group :test do
   gem 'guard-rspec'
   gem 'libnotify'
   gem 'guard-spork'
+  gem 'factory_girl'
 end
